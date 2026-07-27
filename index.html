@@ -17,6 +17,7 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -109,6 +110,53 @@
 
         </section>
 
+        <!-- Image Slider Section -->
+        <section id="gallery">
+            <h2>Image Gallery</h2>
+
+            <div class="slider">
+
+                <!-- Previous Button -->
+                <button class="prev" aria-label="Previous Image">
+                    &#10094;
+                </button>
+
+                <!-- Slider Viewport -->
+                <div class="slider-window">
+
+                    <!-- Sliding Track -->
+                    <div class="slider-track">
+
+                        <div class="slide">
+                            <img src="images1.jpg" alt="Image 1">
+                        </div>
+
+                        <div class="slide">
+                            <img src="images2.jpg" alt="Image 2">
+                        </div>
+
+                        <div class="slide">
+                            <img src="images3.jpg" alt="Image 3">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Next Button -->
+                <button class="next" aria-label="Next Image">
+                    &#10095;
+                </button>
+
+            </div>
+
+            <!-- Navigation Dots -->
+            <div class="slider-dots">
+                <!-- JavaScript will generate dots dynamically -->
+            </div>
+
+        </section>
+
         <section id="contact">
             <h2>Contact Me</h2>
 
@@ -154,6 +202,8 @@
     <footer>
         <p>&copy; 2026 Pujan Shrestha. All Rights Reserved.</p>
     </footer>
+
+    <script src="slider.js"></script>
 
 </body>
 </html>
